@@ -1,0 +1,312 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+}
+
+.bgimage {
+  background-color: black;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: bottom center;
+  height: 133vh;
+}
+
+div.middlewords h1,
+div.bgimage div.header .ritem,
+div.about_us h3,
+div.why_we_spec h3,
+div.opening_hours h3,
+div.contact_details_footer h3 {
+  font-family: "Alegreya", serif;
+  color: #ffffff;
+}
+
+div.bgimage div.header .litem,
+.middlewords h3,
+.middlewords p,
+.contactus,
+.learnmore,
+div.about_us p,
+div.why_we_spec ul,
+div.opening_hours ul,
+div.contact_details_footer span {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #ffffff;
+}
+
+div.header {
+  background-color: rgba(31, 132, 219, 0);
+  margin: 0px 40px 0px 40px;
+}
+
+img.litem {
+  width: 155px;
+}
+
+.litem {
+  background-color: rgba(255, 140, 0, 0);
+  float: left;
+  margin: 8px 34px;
+}
+
+.ritem {
+  background-color: rgba(4, 4, 192, 0);
+  float: right;
+  margin: 20px 10px;
+}
+
+.middlewords {
+  background-color: rgba(0, 184, 122, 0);
+  margin: 150px;
+}
+
+div.middlewords h1 {
+  font-size: 70px;
+}
+
+.middlewords p {
+  font-size: x-large;
+}
+
+.buttons {
+  margin: 30px;
+}
+
+.learnmore {
+  background-color: #7f6247;
+  width: 130px;
+  height: 60px;
+  border: currentColor;
+  border-radius: 10px;
+}
+
+.contactus {
+  background-color: transparent;
+  border: solid;
+  border-radius: 10px;
+  width: 130px;
+  height: 60px;
+  margin: 0px 0px 0px 10px;
+}
+
+.clrfix {
+  clear: both;
+}
+
+/* WHO WE ARE SECTIOn */
+
+div .bigparent_who_we_are_section {
+  text-align: center;
+  display: inline-block;
+  width: 49%;
+  vertical-align: -580px;
+}
+
+div .bigparent_who_we_are_section .image {
+  width: 86%;
+}
+
+div.uncle {
+  text-align: left;
+  display: inline-block;
+  width: 38%;
+  vertical-align: -250px;
+}
+
+div.uncle h1 {
+  font-family: "Alegreya", sans-serif;
+}
+
+div .uncle p {
+  font-family: "Alegreya Sans", serif;
+}
+
+td {
+  font-family: "Alegreya Sans", sans-serif;
+  text-align: left;
+  height: 50px;
+}
+
+.icons {
+  width: 36px;
+  text-align: center;
+}
+
+/* OUR LOCATION SECTION */
+
+div.ourlocation div.ourlocation_paragraph {
+  width: 40%;
+  float: left;
+  padding: 100px 40px;
+}
+
+div.ourlocation div.ourlocation_paragraph h1 {
+  font-family: "Alegreya", serif;
+}
+
+div.ourlocation div.ourlocation_paragraph p {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+div.ourlocation div .ourlocation_image {
+  width: 46%;
+  float: right;
+  padding: 0px 40px;
+}
+
+/* OUR BAKERY SECTION  */
+
+.ourbakery {
+  text-align: center;
+  font-family: "Alegreya", serif;
+}
+
+div.child img {
+  width: 93%;
+}
+
+.parent {
+  text-align: center;
+  display: inline-block;
+}
+
+div div.child {
+  font-family: "Alegreya Sans", sans-serif;
+
+  display: inline-block;
+  width: 30%;
+}
+
+div.parent div.child h2 {
+  font-family: "Alegreya", serif;
+}
+
+/* CONTACT INFORMATION SECTION */
+
+
+
+.contact_info_para h1 {
+  font-family: "Alegreya", serif;
+}
+
+.contact_info_para {
+  /* background-color: aqua; */
+
+  float: left;
+  margin: 0px 0px 0px 33px;
+  font-family: "Alegreya Sans", sans-serif;
+
+}
+
+
+
+div div .google_map_image {
+  /* background-color: aquamarine; */
+  width: 46%;
+  float: right;
+  margin: 0px 20px 0px 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  /* background-color: blue; */
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+li img.contact_icons,
+li span {
+  vertical-align: middle;
+}
+
+img.contact_icons {
+  background-color: #8E7754;
+  width: 8%;
+  height: 6%;
+  border-radius: 50%;
+
+}
+
+
+/* FOOTER SECITON */
+
+.footer {
+  background-color: #403D38;
+  height: 76%;
+}
+
+hr {
+  border-color: #696969;
+
+}
+
+div.about_us,
+div.why_we_spec,
+div.opening_hours,
+div.contact_details_footer {
+  width: 19%;
+  float: left;
+  margin: 40px;
+}
+
+div.about_us p,
+div.why_we_spec ul,
+div.opening_hours ul,
+div.contact_details_footer span {
+  color: #a7a7a7;
+
+}
+
+div.footer div.about_us {
+  /* background-color: aquamarine; */
+  text-align: justify;
+
+
+
+}
+
+
+div.contact_details_footer {
+  background-image: url(../images/contact-details-map.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 120px;
+}
+
+img.footer_icons {
+  width: 30px;
+}
+
+img.footer_icons,
+.contact_details_footer span {
+  vertical-align: middle;
+}
+
+
+div.copyrights_footer_bakery_light {
+  background-color: #353330;
+  text-align: center;
+  height: 70%;
+}
+
+div.copyrights_footer_bakery_light div img {
+  width: 30%;
+
+}
+
+div.copyrights_footer_bakery_light span {
+  font-family: "Noto Color Emoji", sans-serif;
+  color: #a7a7a7;
+}
+
+div.copyrights_footer_bakery_light img.copyrights_icons {
+  width: 36px;
+  background-color: #484540;
+  border-radius: 30px;
+  margin: 0px 2px;
+
+}
